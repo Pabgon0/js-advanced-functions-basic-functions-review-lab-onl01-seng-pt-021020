@@ -17,12 +17,12 @@ const Calculator = {
    return a + b
   },
   subtract: function(a,b){
-   r a - b
+   return a - b
   },
   multiply: function(a,b){
-    a * b
+   return a * b
   },
   divide: function(a,b){
-    a / b
+   return a / b
   }
 }
