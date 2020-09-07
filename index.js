@@ -26,3 +26,9 @@ const Calculator = {
    return a / b
   }
 }
+
+function actionApplyer(startint, array) {
+  let start = startint
+  
+  
+}
