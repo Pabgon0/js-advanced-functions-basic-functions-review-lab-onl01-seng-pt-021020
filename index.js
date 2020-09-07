@@ -28,7 +28,11 @@ const Calculator = {
 }
 
 function actionApplyer(startint, array) {
-  let start = startint
+  let a = startint
   
+  for (let i = 0; i < array.length; i++ ){
+    a = ray[i](a)
+  }
   
+  return a
 }
