@@ -14,10 +14,10 @@ function wrapAdjective(flair="*") {
 
 const Calculator = {
   add: function(a,b){
-    a + b
+   return a + b
   },
   subtract: function(a,b){
-    a - b
+   r a - b
   },
   multiply: function(a,b){
     a * b
