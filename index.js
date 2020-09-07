@@ -11,3 +11,18 @@ function wrapAdjective(flair="*") {
     return(`You are ${flair}${para}${flair}!`)
   }
 }
+
+const Calculator = {
+  add: function(a,b){
+    a + b
+  },
+  subtract: function(a,b){
+    a - b
+  },
+  multiply: function(a,b){
+    a * b
+  },
+  divide: function(a,b){
+    a / b
+  }
+}
